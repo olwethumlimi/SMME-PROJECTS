@@ -1,0 +1,9 @@
+.icon{
+    width: 60px;
+}
+.centre-text{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Handlee&family=Outfit:wght@100&family=Poppins:wght@200;300&display=swap');

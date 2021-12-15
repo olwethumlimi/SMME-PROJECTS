@@ -1,0 +1,23 @@
+.accred img{
+    /* width: 50%; */
+    width: 150px;
+    margin-bottom: 25px;
+    object-fit:scale-down
+}
+.accred{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.accred{
+    /* background: red; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+@media (max-width:500px) {
+    .accred{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+}

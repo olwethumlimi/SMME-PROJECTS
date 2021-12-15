@@ -1,0 +1,17 @@
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.sponsors img{
+    width: 100px;
+    margin-top: 25px !important;
+    margin: auto;
+}
+
+@media (max-width:700px) {
+    .sponsors{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

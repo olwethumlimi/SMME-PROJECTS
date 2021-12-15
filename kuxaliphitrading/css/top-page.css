@@ -1,0 +1,81 @@
+.top-page{
+    background: rebeccapurple;
+    width: 100%;
+    height: 100vh;
+    background-position:center;
+    object-fit: fill;
+    background-size: cover;
+    position: relative;
+    
+}
+html{
+   overflow-x: hidden;
+}
+.top-page .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background: rgba(44, 44, 44, 0.904); */
+
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.699) 0%,rgba(48, 19, 0, 0.993) 100%);
+    /* background: linear-gradient(to bottom, rgba(75, 40, 0, 0.5) 0%,rgba(165, 103, 10, 0.644) 100%);  */
+
+}
+
+.top-page .body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 25px;
+   max-width: 700px;
+   margin: auto;
+   width: 100%;
+}
+
+ul{
+  list-style: none;
+}
+.list-color li{
+  list-style: none;
+  font-size: 16px;
+  /* font-weight: bold; */
+  /* text-align: center; */
+  text-justify: newspaper;
+  margin-top: 10px;
+  
+}
+
+.list-color li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: rgb(0, 255, 128); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+ 
+}
+
+
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  /* font-size: 4em; */
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}

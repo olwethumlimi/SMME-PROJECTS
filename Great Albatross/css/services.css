@@ -1,0 +1,14 @@
+.service-card{
+    display: flex;
+    /* background: red; */
+    align-items: center;
+    /* justify-content: center; */
+    box-shadow:  0 0 9px 0.5px rgb(230, 230, 230);
+    margin-top:10px ;
+    margin-bottom:10px ;
+    border-radius: 10px;
+}
+.service-card .icon {
+    width: 40px;
+   
+}
